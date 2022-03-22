@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-wox-master.flake = false;
+  inputs.src-wox-master.ref   = "refs/heads/master";
   inputs.src-wox-master.owner = "roose";
-  inputs.src-wox-master.ref   = "master";
   inputs.src-wox-master.repo  = "nim-wox";
   inputs.src-wox-master.type  = "github";
   
