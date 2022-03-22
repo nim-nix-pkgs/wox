@@ -9,13 +9,14 @@
   
   inputs.src-wox-master.flake = false;
   inputs.src-wox-master.owner = "roose";
-  inputs.src-wox-master.ref   = "refs/heads/master";
+  inputs.src-wox-master.ref   = "master";
   inputs.src-wox-master.repo  = "nim-wox";
   inputs.src-wox-master.type  = "github";
   
   inputs."unicodeplus".owner = "nim-nix-pkgs";
   inputs."unicodeplus".ref   = "master";
   inputs."unicodeplus".repo  = "unicodeplus";
+  inputs."unicodeplus".dir   = "v0_8_0";
   inputs."unicodeplus".type  = "github";
   inputs."unicodeplus".inputs.nixpkgs.follows = "nixpkgs";
   inputs."unicodeplus".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
