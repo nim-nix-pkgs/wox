@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."wox-master".dir   = "master";
+  inputs."wox-master".owner = "nim-nix-pkgs";
+  inputs."wox-master".ref   = "master";
+  inputs."wox-master".repo  = "wox";
+  inputs."wox-master".type  = "github";
+  inputs."wox-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."wox-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
