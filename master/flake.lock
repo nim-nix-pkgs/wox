@@ -232,11 +232,11 @@
       },
       "locked": {
         "dir": "v0_8_0",
-        "lastModified": 1667330791,
-        "narHash": "sha256-sbKo+BCrvOo7qEggt2vZTwfXodUzWLy6ezxjE0UrtEA=",
+        "lastModified": 1667335637,
+        "narHash": "sha256-SXmCZsJKjOK+Pgh5E9U/LyCyZzfwZU0cHwtLp2C49NU=",
         "owner": "nim-nix-pkgs",
         "repo": "unicodeplus",
-        "rev": "99da32d4ae1ecb3aade89211b79cb8abbab3f57d",
+        "rev": "15021b9b2b2eb6a230ac01aba7f946a10714a1ba",
         "type": "github"
       },
       "original": {
