@@ -397,11 +397,11 @@
       },
       "locked": {
         "dir": "v0_8_0",
-        "lastModified": 1669432367,
-        "narHash": "sha256-BegCrfGWHL0rgwfA2mEzuJDLS2qYgBrdVvPLkTCmsK4=",
+        "lastModified": 1669439115,
+        "narHash": "sha256-OhHjz6rR6QsCWaakrp1SzQQSknDK5bA843Pyr7pUvq4=",
         "owner": "nim-nix-pkgs",
         "repo": "unicodeplus",
-        "rev": "2b674ddbc49041a1c915c656667eba8bbd35ce89",
+        "rev": "9e94076bf4241143b9486eb5f85b752c654d27f0",
         "type": "github"
       },
       "original": {
